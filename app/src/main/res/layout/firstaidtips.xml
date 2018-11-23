@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayoutMessage"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/imgbck"
+            android:orientation="horizontal">
+
+
+            <!--  <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:background="@color/common_google_signin_btn_text_dark_focused" /> -->
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="•	Regular exercise can prevent and reverse age-related decreases in muscle mass and strength, improve balance, flexibility, and endurance, and decrease the risk of falls in the elderly"
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutMessage"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/imgbck"
+            android:orientation="horizontal">
+
+
+            <!--  <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:background="@color/common_google_signin_btn_text_dark_focused" /> -->
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="•	Regular exercise can help chronic arthritis sufferers improve their capacity to perform daily activities such as driving, climbing stairs, and opening jars."
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutMessage"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/imgbck"
+            android:orientation="horizontal">
+
+
+            <!--  <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:background="@color/common_google_signin_btn_text_dark_focused" /> -->
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="•	Regular exercise can help increase self-esteem and self-confidence, decrease stress and anxiety, enhance mood, and improve general mental health."
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayoutMessage"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/imgbck"
+            android:orientation="horizontal">
+
+
+            <!--  <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:background="@color/common_google_signin_btn_text_dark_focused" /> -->
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="•	Regular exercise can help control weight gain and in some people cause loss of fat"
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayoutMessage"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/imgbck"
+            android:orientation="horizontal">
+
+
+            <!--  <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:background="@color/common_google_signin_btn_text_dark_focused" /> -->
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="•	Almost any type of exercise (resistance, water aerobics, walking, swimming, weights, yoga, and many others) is helpful for everybody."
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayoutMessage"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/imgbck"
+            android:orientation="horizontal">
+
+
+            <!--  <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:background="@color/common_google_signin_btn_text_dark_focused" /> -->
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="•	Sports for children may provide excellent opportunities for exercise, but care must be taken not to overdo certain exercises "
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

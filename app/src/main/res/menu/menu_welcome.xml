@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.pk.hospitaapplication.StartingPage">
+
+
+    <item
+        android:id="@+id/edtHome"
+        android:icon="@drawable/home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/AboutUs"
+        android:icon="@drawable/admin"
+        android:title="About Us" />
+
+    <item
+        android:id="@+id/MenuLogin"
+        android:icon="@drawable/login"
+        android:title="Login" />
+
+    <item
+        android:id="@+id/MenuSignUp"
+        android:icon="@drawable/signup"
+        android:title="SignUp" />
+
+</menu>

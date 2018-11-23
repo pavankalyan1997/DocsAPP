@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/DrawerLayoutPharmacistHome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pk.docsappnitt.DoctorHome">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigationViewPharmacistHome"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        app:headerLayout="@layout/header"
+        app:itemTextColor="@color/common_google_signin_btn_text_dark_focused"
+        app:menu="@menu/menu_pharmacist">
+
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>

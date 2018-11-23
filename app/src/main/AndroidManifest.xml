@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pk.docsappnitt">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/nitt"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Login" />
+        <activity
+            android:name=".SignUp"
+            android:label="Sign Up" />
+        <activity
+            android:name=".ProfileActivity"
+            android:label="Your Profile" />
+        <activity
+            android:name=".StartingPage"
+            android:label="DocsApp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutUs"
+            android:label="About Us" />
+        <activity
+            android:name=".Home"
+            android:label="Home" />
+        <activity
+            android:name=".LoginAdmin"
+            android:label="Admin Options" />
+        <activity
+            android:name=".DoctorHome"
+            android:label="Welcome Doctor" />
+        <activity
+            android:name=".PharmacistHome"
+            android:label="Welcome Pharmacist" />
+        <activity
+            android:name=".diagnostic_home"
+            android:label="Welcome Diagnostician" />
+        <activity android:name=".diagInboxTabbed" />
+        <activity android:name=".studentView" />
+        <activity android:name=".ConsultDoctor" />
+        <activity android:name=".Inbox" />
+        <activity android:name=".MessageViewComplete" />
+        <activity android:name=".DoctorInbox" />
+        <activity android:name=".SentBox" />
+        <activity
+            android:name=".InboxTabbed"
+            android:label="@string/title_activity_inbox_tabbed"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SentBoxTabbed"
+            android:label="@string/title_activity_sent_box_tabbed"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MessageViewForDoctor" />
+        <activity android:name=".doctorInboxTabbed" />
+        <activity android:name=".TreatPatient" />
+        <activity android:name=".DoctorSentboxTabbed" />
+        <activity android:name=".MessageViewForDiagnostician" />
+        <activity android:name=".MessageViewForPatientFromDoctor" />
+        <activity android:name=".PharmacistReport" />
+        <activity android:name=".MessageViewForDiagnosticianFromDoctor" />
+        <activity android:name=".MessageViewForPharmacistFromDoctor" />
+        <activity android:name=".PharmacistInboxTabbed" />
+        <activity android:name=".MessagViewForPharmacistFromDoctorWithReport" />
+        <activity android:name=".diagSentBoxTabbed" />
+        <activity android:name=".DiagReport" />
+        <activity android:name=".PharmacistSentBoxTabbed" />
+        <activity android:name=".HealthTips"></activity>
+    </application>
+
+</manifest>

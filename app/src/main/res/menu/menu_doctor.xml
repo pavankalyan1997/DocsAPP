@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/edtHome"
+        android:icon="@drawable/home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/edtTreatPatient"
+        android:icon="@drawable/patient"
+        android:title="Treat Patient" />
+
+    <item
+        android:id="@+id/edtInbox"
+        android:icon="@drawable/inbox"
+        android:title="Inbox" />
+
+    <item
+        android:id="@+id/edtSentbox"
+        android:icon="@drawable/sent"
+        android:title="SentBox" />
+
+    <item android:title="LogOut As Doctor"
+        android:id="@+id/LogoutAsDoctor"
+        android:icon="@drawable/signout"/>
+    <item
+        android:id="@+id/Logout"
+        android:icon="@drawable/signout"
+        android:title="LogOut" />
+
+
+</menu>

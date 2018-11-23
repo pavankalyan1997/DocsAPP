@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:orientation="vertical"
+    android:background="@drawable/bckground"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/proImgHeader"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/propic" />
+
+    <TextView
+        android:id="@+id/pronameHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Hii User"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textStyle="bold" />
+
+</LinearLayout>

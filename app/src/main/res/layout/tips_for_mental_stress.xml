@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/imgbck"
+            android:orientation="horizontal">
+
+
+            <!--  <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:background="@color/common_google_signin_btn_text_dark_focused" /> -->
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="•	Get enough sleep daily"
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutMessage"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/imgbck"
+            android:orientation="horizontal">
+
+
+            <!--  <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:background="@color/common_google_signin_btn_text_dark_focused" /> -->
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="•	Take a walk and reflect on what you see and hear at least several times per week."
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutMessage"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/imgbck"
+            android:orientation="horizontal">
+
+
+            <!--  <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:background="@color/common_google_signin_btn_text_dark_focused" /> -->
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="•	Try something new and often (eat a new food, try a different route to work, go to a new museum display)."
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayoutMessage"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/imgbck"
+            android:orientation="horizontal">
+
+
+            <!--  <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:background="@color/common_google_signin_btn_text_dark_focused" /> -->
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="•	Do some mind exercises (read, do a puzzle occasionally during the week)."
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayoutMessage"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/imgbck"
+            android:orientation="horizontal">
+
+
+            <!--  <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:background="@color/common_google_signin_btn_text_dark_focused" /> -->
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="•	Try to focus on a process intensely and complete a segment of it over one to several hours, then take a break and do something relaxing "
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayoutMessage"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/imgbck"
+            android:orientation="horizontal">
+
+
+            <!--  <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:background="@color/common_google_signin_btn_text_dark_focused" /> -->
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="•	Plan to spend some time talking with other people about different subjects."
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayoutMessage"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/imgbck"
+            android:orientation="horizontal">
+
+
+            <!--  <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:background="@color/common_google_signin_btn_text_dark_focused" /> -->
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text='•	Learn ways to say "no" when something occurs that you do not want to do or be involved with.'
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayoutMessage"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/imgbck"
+            android:orientation="horizontal">
+
+
+            <!--  <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:background="@color/common_google_signin_btn_text_dark_focused" /> -->
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="•	Have a network of friends; those with strong social support systems lead healthier lives."
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/imgbck"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="•	Seek help and advice early if you feel depressed, have suicidal thoughts, or consider harming yourself or others"
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linearLayoutMessage"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/imgbck"
+            android:orientation="horizontal">
+
+
+            <!--  <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:background="@color/common_google_signin_btn_text_dark_focused" /> -->
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="•	Let yourself be pleased with your achievements, both big and small (develop contentment)."
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutMessage"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/imgbck"
+            android:orientation="horizontal">
+
+
+            <!--  <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:background="@color/common_google_signin_btn_text_dark_focused" /> -->
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text='•	People taking medicine for mental-health problems should not stop taking these medications, no matter how "well" they feel, until they have discussed their situation with their prescribing doctor(s).'
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>

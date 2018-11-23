@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "268645135522",
+    "firebase_url": "https://docsappnitt.firebaseio.com",
+    "project_id": "docsappnitt",
+    "storage_bucket": "docsappnitt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268645135522:android:f44fd110aa0cf409",
+        "android_client_info": {
+          "package_name": "com.example.pk.docsappnitt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268645135522-i4vnbilo8kq653doestuii7kfuppri92.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pk.docsappnitt",
+            "certificate_hash": "abf36bb622a0d608797ad33bd3878702cd8cb649"
+          }
+        },
+        {
+          "client_id": "268645135522-jock8dq4croetiseb641vg2o23smmlg6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pk.docsappnitt",
+            "certificate_hash": "4c9a54dae00a2ddf709a168e2aa4040c50e443ad"
+          }
+        },
+        {
+          "client_id": "268645135522-3up32bjbh7dot0obr9cs4g66qlfq7rbr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcyxZxkzNYcNBtipW_dmFWvPzb4_EmdVA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268645135522-3up32bjbh7dot0obr9cs4g66qlfq7rbr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268645135522:android:470d824cf4202316",
+        "android_client_info": {
+          "package_name": "com.example.pk.hospitaapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268645135522-i410vdrnt2l3it3f1era4k14m9q85640.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pk.hospitaapplication",
+            "certificate_hash": "4c9a54dae00a2ddf709a168e2aa4040c50e443ad"
+          }
+        },
+        {
+          "client_id": "268645135522-3up32bjbh7dot0obr9cs4g66qlfq7rbr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcyxZxkzNYcNBtipW_dmFWvPzb4_EmdVA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268645135522-3up32bjbh7dot0obr9cs4g66qlfq7rbr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

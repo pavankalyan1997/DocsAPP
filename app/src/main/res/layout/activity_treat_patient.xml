@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/DrawerLayoutTreatPatient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TreatPatient">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Patient Details"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtPTName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Enter Patient Name"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/txtPatientName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/common_google_signin_btn_text_dark_default"
+                    android:ems="10"
+                    android:hint="Patient Name"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtGenderSelect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Select Patient Gender"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtGender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/common_google_signin_btn_text_dark_default"
+                    android:hint="Click here"
+                    android:textColor="@color/common_google_signin_btn_text_light_default"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtAgeEnter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Enter Patient's age"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/txtAge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/common_google_signin_btn_text_dark_default"
+                    android:hint="Patient Age"
+                    android:textColor="@color/common_google_signin_btn_text_light_default"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtAddresss"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Enter Patient's address"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/txtAddress"
+                    android:layout_width="345dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/common_google_signin_btn_text_dark_default"
+                    android:hint="Patient Address"
+                    android:textColor="@color/common_google_signin_btn_text_light_default"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/editTextMobileNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Enter Patient's Mobile Number"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/txtMobileNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/common_google_signin_btn_text_dark_default"
+                    android:hint="Patient Mobile Number"
+                    android:textColor="@color/common_google_signin_btn_text_light_default"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtBloodGroupEnter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Enter Patient's blood group"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/txtBloodGroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/common_google_signin_btn_text_dark_default"
+                    android:hint="Click here"
+                    android:textColor="@color/common_google_signin_btn_text_light_default"
+                    android:textColorHint="@color/common_google_signin_btn_text_light_default"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Describe Patient problem"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/txtProblem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+                    android:hint="Patient Problem Here"
+                    android:inputType="textMultiLine"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:textColorHint="@color/common_google_signin_btn_text_light_default"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Pharmacy"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Select Pharmacist"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtPharmacistName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/common_google_signin_btn_text_dark_default"
+                    android:hint="Click here"
+                    android:textColor="@color/common_google_signin_btn_text_light_default"
+                    android:textColorHint="@color/common_google_signin_btn_text_light_default"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+        </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Select Medicines"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtMedicines"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/common_google_signin_btn_text_dark_default"
+                android:hint="Click here"
+                android:textColor="@color/common_google_signin_btn_text_light_default"
+                android:textColorHint="@color/common_google_signin_btn_text_light_default"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Select Dosage and Usage"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtMedicineDosage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/common_google_signin_btn_text_dark_default"
+                    android:hint="Click here"
+                    android:textColor="@color/common_google_signin_btn_text_light_default"
+                    android:textColorHint="@color/common_google_signin_btn_text_light_default"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/txtRemoveMedicines"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/common_google_signin_btn_text_dark_default"
+                android:hint="Remove Medicines"
+                android:textColor="@color/common_google_signin_btn_text_light_default"
+                android:textColorHint="@color/common_google_signin_btn_text_light_default"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Diagnostic Center"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Select Diagnostician"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtDiagnosticianName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/common_google_signin_btn_text_dark_default"
+                    android:hint="Click here"
+                    android:textColor="@color/common_google_signin_btn_text_light_default"
+                    android:textColorHint="@color/common_google_signin_btn_text_light_default"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Select Diagnostic Tests"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtDiagnosticTest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/common_google_signin_btn_text_dark_default"
+                    android:hint="Click here"
+                    android:textColor="@color/common_google_signin_btn_text_light_default"
+                    android:textColorHint="@color/common_google_signin_btn_text_light_default"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/txtSelectedDiagnosticTests"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/common_google_signin_btn_text_dark_default"
+                    android:hint="View Selected Diagnostic tests"
+                    android:textColor="@color/common_google_signin_btn_text_light_default"
+                    android:textColorHint="@color/common_google_signin_btn_text_light_default"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/txtRemoveDiagnosticTests"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/common_google_signin_btn_text_dark_default"
+                    android:hint="Remove Diagnostic tests"
+                    android:textColor="@color/common_google_signin_btn_text_light_default"
+                    android:textColorHint="@color/common_google_signin_btn_text_light_default"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="Remarks"
+                        android:textColor="@color/common_google_signin_btn_text_dark_default"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/txtRemarks"
+                        android:layout_width="238dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+                        android:hint="Remarks"
+                        android:inputType="textMultiLine"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                        android:textColorHint="@color/common_google_signin_btn_text_light_default"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:orientation="vertical">
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/FABButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginBottom="45dp"
+                    android:layout_marginRight="45dp"
+                    android:clickable="true"
+                    app:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+                    app:elevation="1dp"
+                    app:srcCompat="@drawable/send" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigationViewTreatPatient"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        app:headerLayout="@layout/header"
+        app:itemTextColor="@color/common_google_signin_btn_text_dark_focused"
+        app:menu="@menu/menu_doctor">
+
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

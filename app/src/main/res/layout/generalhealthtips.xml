@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayoutMessage"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/imgbck"
+            android:orientation="horizontal">
+
+
+            <!--  <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:background="@color/common_google_signin_btn_text_dark_focused" /> -->
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="88dp"
+                android:layout_weight="1"
+                android:text="•	Eat three meals a day (breakfast, lunch, and dinner); it is important to remember that dinner does not have to be the largest meal."
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutMessage"
+            android:layout_width="match_parent"
+            android:layout_height="97dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/imgbck"
+            android:orientation="horizontal">
+
+
+            <!--  <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:background="@color/common_google_signin_btn_text_dark_focused" /> -->
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="83dp"
+                android:layout_weight="0"
+                android:text="•	Choose foods that are low in saturated fats, trans fats, cholesterol, salt (sodium), and added sugars; look at the labels because the first listed items on the labels comprise the highest concentrations of ingredients."
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutMessage"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/imgbck"
+            android:orientation="horizontal">
+
+
+            <!--  <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:background="@color/common_google_signin_btn_text_dark_focused" /> -->
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="•	Control portion sizes; eat the smallest portion that can satisfy hunger and then stop eating"
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayoutMessage"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/imgbck"
+            android:orientation="horizontal">
+
+
+            <!--  <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:background="@color/common_google_signin_btn_text_dark_focused" /> -->
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="•	Avoid sodas and sugar-enhanced drinks because of the excessive calories in the sodas and sugar drinks"
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayoutMessage"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/imgbck"
+            android:orientation="horizontal">
+
+
+            <!--  <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:background="@color/common_google_signin_btn_text_dark_focused" /> -->
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="•	Avoid eating a large meal before sleeping to decrease gastroesophageal reflux and weight gain."
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayoutMessage"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/imgbck"
+            android:orientation="horizontal">
+
+
+            <!--  <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:background="@color/common_google_signin_btn_text_dark_focused" /> -->
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="•	Avoid rewarding children with sugary snacks; such a pattern may become a lifelong habit for people."
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayoutMessage"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/imgbck"
+            android:orientation="horizontal">
+
+
+            <!--  <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:background="@color/common_google_signin_btn_text_dark_focused" /> -->
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="•	Avoid heavy meals in the summer months, especially during hot days.•	Avoid eating raw or undercooked meats of any type."
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayoutMessage"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/imgbck"
+            android:orientation="horizontal">
+
+
+            <!--  <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:background="@color/common_google_signin_btn_text_dark_focused" /> -->
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="•	A vegetarian lifestyle has been promoted for a healthy lifestyle and weight loss; vegetarians should check with their physicians to be sure they are getting enough vitamins, minerals, and iron in their food."
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/imgbck"
+            android:orientation="horizontal">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Maintain daily routine such as Getup Early in morning,Exercise,Breakfast,Lunch,Dinner,Sleep.Routine is important factor in healthy life"
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
