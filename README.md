@@ -1,0 +1,2 @@
+# DocsAPP
+This app is created as a part of final year engineering project. This is a prototype of the idea of communication between doctor and patient via android app. The patient can fix appointment with doctor via App, Doctor can send message to pharmacy and diagnostic centre of all the medicines and Diagnostic tests via App. Pharmacists and Diagnosticians can even send the reply to doctor telling the status of the tasks assigned to them. Back end of the project is coded in Google firebase, a convenient nosql database. 
